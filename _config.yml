@@ -1,0 +1,21 @@
+# kipple site (GitHub Pages / Jekyll)
+#
+# ── Fill these in before you put the URLs into App Store Connect ──────────
+# Every page reads its contact details from here.
+owner:
+  name: "[YOUR NAME]"
+  email: "[CONTACT EMAIL]"
+  # Postal address for the Impressum (required in Germany for a commercial
+  # site). A business or virtual address works; it doesn't have to be home.
+  street: "[STREET AND NUMBER]"
+  city: "[POSTCODE CITY]"
+  country: "Germany"
+  # Optional: a second fast way to reach you (phone or contact form link).
+  phone: ""
+policy_updated: "[DATE, e.g. 12 November 2026]"
+# ──────────────────────────────────────────────────────────────────────────
+
+title: kipple
+description: A plain-text day planner for iPhone. It piles up when you're not looking. Clear it.
+lang: en
+markdown: kramdown

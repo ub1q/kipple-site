@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <style>
+    :root { --bg:#0F120E; --text:#E4DFD3; --dim:#9DBB4A; --accent:#C6F432; --rule:#26301F; }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#F7F6F1; --text:#1B1F17; --dim:#4F6B00; --accent:#4F6B00; --rule:#D8D9CF; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--text);
+           font: 16px/1.6 ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+    header { display:flex; justify-content:space-between; align-items:baseline; gap:16px;
+             border-bottom:1px solid var(--rule); padding-bottom:16px; margin-bottom:32px; flex-wrap:wrap; }
+    .brand { font-weight:800; font-size:22px; color:var(--text); text-decoration:none; }
+    .brand::after { content:""; display:inline-block; width:10px; height:18px; background:var(--accent);
+                    margin-left:6px; vertical-align:-3px; }
+    nav a { color:var(--dim); margin-left:16px; text-decoration:none; }
+    nav a:hover, a:hover { color:var(--accent); }
+    a { color:var(--accent); }
+    h1 { font-size:26px; line-height:1.25; }
+    h2 { font-size:18px; margin-top:32px; color:var(--dim); }
+    code { background:var(--rule); padding:1px 5px; border-radius:4px; }
+    footer { border-top:1px solid var(--rule); margin-top:48px; padding-top:16px; font-size:13px; color:var(--dim); }
+    footer a { color:var(--dim); margin-right:16px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="{{ '/' | relative_url }}">kipple</a>
+      <nav>
+        <a href="{{ '/support/' | relative_url }}">Support</a>
+        <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+        <a href="{{ '/impressum/' | relative_url }}">Impressum</a>
+      </nav>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <a href="{{ '/support/' | relative_url }}">Support</a>
+      <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+      <a href="{{ '/impressum/' | relative_url }}">Impressum / Legal notice</a>
+      <p>© {{ 'now' | date: '%Y' }} {{ site.owner.name }}</p>
+    </footer>
+  </div>
+</body>
+</html>
