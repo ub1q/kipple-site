@@ -27,4 +27,4 @@ Telefon: {{ site.owner.phone }}{% endif %}
 
 ## Legal notice (English)
 
-This site and the kipple app are provided by {{ site.owner.name }}, {{ site.owner.street }}, {{ site.owner.city }}, {{ site.owner.country }}. Contact: {{ site.owner.email }}.
+This site (Half Batch) and its apps, including kipple, are provided by {{ site.owner.name }}, {{ site.owner.street }}, {{ site.owner.city }}, {{ site.owner.country }}. Contact: {{ site.owner.email }}.

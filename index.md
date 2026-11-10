@@ -2,16 +2,20 @@
 layout: default
 ---
 
-# A plain-text day planner for iPhone.
+# Small software, made with care.
 
-kipple keeps your days in one plain-text file, `plan.txt`, the way John Carmack kept his `.plan`: tasks grouped by day, ticked off with `[x]`.
+<p class="lead">Half Batch is a one-person studio making plain, focused apps. Fewer features, done properly.</p>
 
-Unfinished tasks from past days are **kipple**. They pile up when you're not looking, and the counter tells you how much. Clear it.
+<p class="label">Apps</p>
 
-- One plain-text file you own, synced through your iCloud Drive
-- Today, tomorrow, or any day; a week strip to get around
-- Reminders (`@14:30`) and repeating tasks (`(every mon)`)
-- Widgets, Siri and Shortcuts
-- No account, no tracking, no ads
+<a class="card" href="kipple/">
+  <span class="pill">batch 01</span>
+  <h3>kipple</h3>
+  <p>A plain-text day planner for iPhone. It piles up when you're not looking. Clear it.</p>
+</a>
 
-[Support](support/) · [Privacy](privacy/)
+## About {#about}
+
+Every app here is a small batch: built slowly, kept simple, and looked after. No accounts, no tracking, no ads. Your data stays yours.
+
+Questions or ideas: [{{ site.owner.email }}](mailto:{{ site.owner.email }}).

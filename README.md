@@ -1,12 +1,17 @@
-# kipple-site
+# Half Batch website (halfbatch.studio)
 
-Privacy policy, support page and legal notice for the kipple iPhone app, published with GitHub Pages.
+The studio site, published with GitHub Pages: the home page, the kipple page with its privacy policy and support page, a website privacy notice and the Impressum.
 
 - `_config.yml`: **fill in the `owner` and `policy_updated` fields first**; every page reads them.
-- Pages: `/` · `/support/` · `/privacy/` · `/impressum/`
+- `CNAME`: the custom domain, `halfbatch.studio`.
 
-App Store Connect URLs (once Pages is on):
+| Page | URL |
+| --- | --- |
+| Home | https://halfbatch.studio/ |
+| kipple | https://halfbatch.studio/kipple/ |
+| kipple privacy policy (App Store Connect) | https://halfbatch.studio/kipple/privacy/ |
+| kipple support (App Store Connect) | https://halfbatch.studio/kipple/support/ |
+| Website privacy | https://halfbatch.studio/privacy/ |
+| Impressum | https://halfbatch.studio/impressum/ |
 
-- Privacy Policy URL: `https://ub1q.github.io/kipple-site/privacy/`
-- Support URL: `https://ub1q.github.io/kipple-site/support/`
-- Marketing URL (optional): `https://ub1q.github.io/kipple-site/`
+A new app gets its own folder like `kipple/` and a card on the home page.

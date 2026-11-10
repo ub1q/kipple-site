@@ -1,10 +1,11 @@
-# kipple site (GitHub Pages / Jekyll)
+# Half Batch (halfbatch.studio), GitHub Pages / Jekyll
 #
 # ── Fill these in before you put the URLs into App Store Connect ──────────
 # Every page reads its contact details from here.
 owner:
   name: "[YOUR NAME]"
-  email: "[CONTACT EMAIL]"
+  # Public contact address (support page, privacy policies, Impressum).
+  email: "support@halfbatch.studio"
   # Postal address for the Impressum (required in Germany for a commercial
   # site). A business or virtual address works; it doesn't have to be home.
   street: "[STREET AND NUMBER]"
@@ -15,7 +16,8 @@ owner:
 policy_updated: "[DATE, e.g. 12 November 2026]"
 # ──────────────────────────────────────────────────────────────────────────
 
-title: kipple
-description: A plain-text day planner for iPhone. It piles up when you're not looking. Clear it.
+title: Half Batch
+description: Small software, made with care. A one-person studio for plain, focused apps.
+url: "https://halfbatch.studio"
 lang: en
 markdown: kramdown

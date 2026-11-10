@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Support
-permalink: /support/
+title: kipple support
+permalink: /kipple/support/
 ---
 
-# Support
+# kipple support
 
 Questions, bugs or ideas: email **[{{ site.owner.email }}](mailto:{{ site.owner.email }})**. I usually reply within a few days.
 
