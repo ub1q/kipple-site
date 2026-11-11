@@ -1,0 +1,31 @@
+# Half Batch (halfbatch.studio), GitHub Pages / Jekyll
+#
+# ── Privacy mode ───────────────────────────────────────────────────────────
+# commercial: false  → no name or address anywhere on the site. The Impressum
+#                      page says this is a private, non-commercial project and
+#                      gives only the contact email. Fits a free app with no
+#                      in-app purchases or ads (and "non-trader" in App Store
+#                      Connect).
+# commercial: true   → full Impressum (§ 5 DDG): your name plus a postal
+#                      address where letters can be served. Use a business or
+#                      virtual-office address, never your home. Switch this on
+#                      before you charge for anything.
+commercial: false
+
+owner:
+  # Public contact address, used on every page. Make it an alias that
+  # forwards to your real inbox.
+  email: "support@halfbatch.studio"
+  # Only shown when commercial: true
+  name: "[YOUR LEGAL NAME]"
+  street: "[BUSINESS ADDRESS: STREET AND NUMBER]"
+  city: "[POSTCODE CITY]"
+  country: "Germany"
+policy_updated: "11 November 2026"
+# ──────────────────────────────────────────────────────────────────────────
+
+title: Half Batch
+description: Small software, made with care. A one-person studio for plain, focused apps.
+url: "https://halfbatch.studio"
+lang: en
+markdown: kramdown
