@@ -12,6 +12,7 @@ layout: default
   <span class="pill">batch 01</span>
   <h3>kipple</h3>
   <p>A plain-text day planner for iPhone. It piles up when you're not looking. Clear it.</p>
+  <p>Free on the App Store.</p>
 </a>
 
 <a class="card" href="https://shelfready.dev/">
