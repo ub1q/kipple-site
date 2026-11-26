@@ -31,6 +31,6 @@ Tasks left open on past days are **kipple**. They pile up when you're not lookin
 - Home Screen and Lock Screen widgets, Siri and Shortcuts
 - No account, no tracking, no ads
 
-<p><span class="button" aria-disabled="true">Coming soon to the App Store</span></p>
+<p><a class="button" href="{{ site.kipple_app_store }}">Get kipple on the App Store</a> &nbsp;Free · iPhone · iOS 26</p>
 
 [Support](support/) · [Privacy policy](privacy/)
